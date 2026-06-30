@@ -1,0 +1,58 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Virtual Environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build / Packaging
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Local database/cache
+data/vectordb/
+
+#scripts test for chunking
+backend/scripts/docx_chunk_debug/
+backend/scripts/chunk_debug/
+backend/scripts/chunk_debug_1/
+
+backend/scripts/debug_*.py
+backend/scripts/information_test_results*.txt
+
+backend/scripts/inspect_chunking_v2.py
+backend/scripts/inspect_chunking_v3.py
+backend/scripts/inspect_docx_chunks.py
+backend/scripts/inspect_pdf_1.py
+backend/scripts/inspect_pdf_chunks.py
+backend/scripts/inspect_retrieval_1.py
+
+output_file
