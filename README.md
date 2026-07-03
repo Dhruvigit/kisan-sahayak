@@ -1,4 +1,4 @@
-# 🌾 Kisan Sahayak
+# Kisan Sahayak
 
 > An AI-powered Retrieval-Augmented Generation (RAG) system that provides accurate, document-grounded information about Indian Government agricultural schemes through a multilingual Telegram bot.
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 Kisan Sahayak is an information retrieval system that answers questions about Indian Government agricultural schemes using **Retrieval-Augmented Generation (RAG)**.
 
@@ -20,20 +20,20 @@ The current version supports **Information Mode**, allowing users to ask factual
 
 ---
 
-## ✨ Features
+## Features
 
-- 📄 Document-grounded question answering
-- 🔍 Semantic search using ChromaDB
-- 🧠 Intelligent query refinement and routing
-- 🗂 Metadata-aware retrieval pipeline
-- 🌐 Multilingual support (English, Hindi, Gujarati)
-- 🎤 Voice input and voice responses
-- 🤖 Telegram Bot interface
-- 📚 Hybrid knowledge base using official PDFs and curated summaries
+- Document-grounded question answering
+- Semantic search using ChromaDB
+- Intelligent query refinement and routing
+- Metadata-aware retrieval pipeline
+- Multilingual support (English, Hindi, Gujarati)
+- Voice input and voice responses
+- Telegram Bot interface
+- Hybrid knowledge base using official PDFs and curated summaries
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Category | Technology |
 |----------|------------|
@@ -50,7 +50,7 @@ The current version supports **Information Mode**, allowing users to ask factual
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 kisan-sahayak/
@@ -91,7 +91,7 @@ kisan-sahayak/
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 Detailed project documentation is available in the `docs/` directory.
 
@@ -100,7 +100,7 @@ Detailed project documentation is available in the `docs/` directory.
 
 ---
 
-# 🚀 Project Setup
+# Project Setup
 
 ## Prerequisites
 
@@ -287,7 +287,7 @@ python backend/app/rag/vectorization/build_vectorstore.py
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ```bash
 git clone https://github.com/Dhruvigit/kisan-sahayak.git
@@ -312,7 +312,7 @@ python backend/app/rag/vectorization/build_vectorstore.py
 python frontend/telegram_bot/bot.py
 ```
 
-# 🧪 Utility Scripts
+# Utility Scripts
 
 The `backend/scripts/` directory contains helper utilities for testing, debugging, and validating different parts of the RAG pipeline during development.
 
@@ -357,7 +357,7 @@ Lists the unique section headers detected from the source documents. This helps 
 
 ---
 
-# 📁 Data Directory
+# Data Directory
 
 The project expects the following directory structure:
 
@@ -372,7 +372,7 @@ data/
 
 ---
 
-# 📚 Documentation
+# Documentation
 
 Detailed project documentation is available in the `docs/` directory.
 
@@ -383,7 +383,7 @@ Detailed project documentation is available in the `docs/` directory.
 
 ---
 
-# 🚧 Current Limitations
+# Current Limitations
 
 The current version is focused on **Information Mode**.
 
@@ -395,7 +395,7 @@ Current limitations include:
 
 ---
 
-# 🛣 Future Enhancements
+# Future Enhancements
 
 Planned improvements include:
 
@@ -408,7 +408,7 @@ Planned improvements include:
 
 ---
 
-# 🤝 Contributing
+# Contributing
 
 Contributions are welcome.
 
@@ -424,7 +424,7 @@ For major changes, please open an issue first to discuss the proposed improvemen
 
 ---
 
-## 📄 Research
+## Research
 
 This repository contains the implementation developed as part of the research project:
 
